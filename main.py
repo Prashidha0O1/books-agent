@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from summarizer import get_summary
 from tts import generate_audio
 from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
 
 # Load API keys from .env
 load_dotenv()
